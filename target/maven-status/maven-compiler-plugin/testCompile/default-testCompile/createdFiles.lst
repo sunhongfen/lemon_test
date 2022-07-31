@@ -9,15 +9,19 @@ com\lemon\zixi\day01\EmployeeMethod.class
 com\study\util\RandomDataUtil.class
 com\lemon\zixi\day01\Manger.class
 com\lemon\zixi\day01\StudentZuoYe.class
+com\study\MockTest.class
+com\study\ErpLogin.class
 com\lemon\lemonApiDefinition\LoginSearchProdInfo.class
 com\study\RegisterTest.class
 com\study\ShopCart.class
 com\lemon\lemonApiDefinition\LemonApiDefin.class
 com\lemon\zixi\day01\LianXiCoder.class
 com\lemon\homeWorkTestCase\ShopCart.class
+com\study\FutureloanRSA.class
 com\lemon\util\Environment.class
 com\lemon\homeWorkApiDefinition\ApiCall.class
 com\lemon\zixi\day01\JsonObject$ParseObject.class
+com\study\test_git.class
 com\lemon\common\BaseTest.class
 com\lemon\zixi\day01\Car.class
 com\lemon\zixi\day01\Dog.class
@@ -56,6 +60,7 @@ com\lemon\zixi\day01\TestNg01.class
 com\lemon\zixi\day01\ArrayListDemo.class
 com\lemon\zixi\day01\Student.class
 com\study\common\GlobalConfig.class
+com\study\OrderPayTest.class
 com\lemon\lemonShopCartCase\FileInfo.class
 com\lemon\zixi\day01\Cat.class
 com\lemon\zixi\day01\JsonObject.class

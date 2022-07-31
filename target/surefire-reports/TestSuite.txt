@@ -1,8 +1,18 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 12.923 s <<< FAILURE! - in TestSuite
-shopCart(com.study.ShopCart)  Time elapsed: 6.967 s  <<< FAILURE!
-java.lang.AssertionError: expected [200] but found [400]
-	at com.study.ShopCart.shopCart(ShopCart.java:28)
+Tests run: 3, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 13.634 s <<< FAILURE! - in TestSuite
+resAssert(com.study.ShopCart)  Time elapsed: 5.301 s  <<< FAILURE!
+java.lang.AssertionError: expected [200] but found [404]
+	at com.study.ShopCart.resAssert(ShopCart.java:59)
+
+shopCart(com.study.ShopCart)  Time elapsed: 0.523 s  <<< FAILURE!
+io.restassured.path.json.exception.JsonPathException: Failed to parse the JSON document
+	at com.study.ShopCart.shopCart(ShopCart.java:33)
+Caused by: groovy.json.JsonException: Lexing failed on line: 1, column: 1, while reading '<', no possible valid JSON value or punctuation could be recognized.
+	at com.study.ShopCart.shopCart(ShopCart.java:33)
+
+register(com.study.RegisterTest)  Time elapsed: 4.189 s  <<< FAILURE!
+java.lang.AssertionError: expected [200] but found [405]
+	at com.study.RegisterTest.register(RegisterTest.java:50)
 

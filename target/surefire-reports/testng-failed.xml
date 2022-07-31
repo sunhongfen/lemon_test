@@ -3,8 +3,14 @@
 <suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [All Test Suite]">
   <test thread-count="5" verbose="0" name="D:/code/java35/target(failed)">
     <classes>
+      <class name="com.study.RegisterTest">
+        <methods>
+          <include name="register"/>
+        </methods>
+      </class> <!-- com.study.RegisterTest -->
       <class name="com.study.ShopCart">
         <methods>
+          <include name="resAssert" invocation-numbers="0"/>
           <include name="shopCart"/>
         </methods>
       </class> <!-- com.study.ShopCart -->

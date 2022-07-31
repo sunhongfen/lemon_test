@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="12.923" tests="2" errors="0" skipped="0" failures="1">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="13.634" tests="3" errors="0" skipped="0" failures="3">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -7,7 +7,7 @@
     <property name="java.specification.version" value="1.8"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="GBK"/>
-    <property name="java.class.path" value="D:\code\java35\target\test-classes;D:\code\java35\target\classes;D:\java35\apache-maven-3.6.1\repo\io\rest-assured\rest-assured\4.2.0\rest-assured-4.2.0.jar;D:\java35\apache-maven-3.6.1\repo\org\codehaus\groovy\groovy\2.5.8\groovy-2.5.8.jar;D:\java35\apache-maven-3.6.1\repo\org\codehaus\groovy\groovy-xml\2.5.8\groovy-xml-2.5.8.jar;D:\java35\apache-maven-3.6.1\repo\org\apache\httpcomponents\httpclient\4.5.3\httpclient-4.5.3.jar;D:\java35\apache-maven-3.6.1\repo\org\apache\httpcomponents\httpcore\4.4.6\httpcore-4.4.6.jar;D:\java35\apache-maven-3.6.1\repo\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;D:\java35\apache-maven-3.6.1\repo\commons-codec\commons-codec\1.9\commons-codec-1.9.jar;D:\java35\apache-maven-3.6.1\repo\org\apache\httpcomponents\httpmime\4.5.3\httpmime-4.5.3.jar;D:\java35\apache-maven-3.6.1\repo\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;D:\java35\apache-maven-3.6.1\repo\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;D:\java35\apache-maven-3.6.1\repo\io\rest-assured\json-path\4.2.0\json-path-4.2.0.jar;D:\java35\apache-maven-3.6.1\repo\org\codehaus\groovy\groovy-json\2.5.8\groovy-json-2.5.8.jar;D:\java35\apache-maven-3.6.1\repo\io\rest-assured\rest-assured-common\4.2.0\rest-assured-common-4.2.0.jar;D:\java35\apache-maven-3.6.1\repo\io\rest-assured\xml-path\4.2.0\xml-path-4.2.0.jar;D:\java35\apache-maven-3.6.1\repo\jakarta\xml\bind\jakarta.xml.bind-api\2.3.2\jakarta.xml.bind-api-2.3.2.jar;D:\java35\apache-maven-3.6.1\repo\jakarta\activation\jakarta.activation-api\1.2.1\jakarta.activation-api-1.2.1.jar;D:\java35\apache-maven-3.6.1\repo\com\sun\xml\bind\jaxb-osgi\2.3.0.1\jaxb-osgi-2.3.0.1.jar;D:\java35\apache-maven-3.6.1\repo\org\apache\sling\org.apache.sling.javax.activation\0.1.0\org.apache.sling.javax.activation-0.1.0.jar;D:\java35\apache-maven-3.6.1\repo\javax\activation\activation\1.1.1\activation-1.1.1.jar;D:\java35\apache-maven-3.6.1\repo\org\testng\testng\7.0.0\testng-7.0.0.jar;D:\java35\apache-maven-3.6.1\repo\com\beust\jcommander\1.72\jcommander-1.72.jar;D:\java35\apache-maven-3.6.1\repo\com\alibaba\fastjson\2.0.7\fastjson-2.0.7.jar;D:\java35\apache-maven-3.6.1\repo\com\alibaba\fastjson2\fastjson2-extension\2.0.7\fastjson2-extension-2.0.7.jar;D:\java35\apache-maven-3.6.1\repo\com\alibaba\fastjson2\fastjson2\2.0.7\fastjson2-2.0.7.jar;D:\java35\apache-maven-3.6.1\repo\cn\afterturn\easypoi-base\4.4.0\easypoi-base-4.4.0.jar;D:\java35\apache-maven-3.6.1\repo\org\apache\poi\poi\4.1.1\poi-4.1.1.jar;D:\java35\apache-maven-3.6.1\repo\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;D:\java35\apache-maven-3.6.1\repo\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;D:\java35\apache-maven-3.6.1\repo\org\apache\poi\poi-ooxml\4.1.1\poi-ooxml-4.1.1.jar;D:\java35\apache-maven-3.6.1\repo\org\apache\commons\commons-compress\1.19\commons-compress-1.19.jar;D:\java35\apache-maven-3.6.1\repo\com\github\virtuald\curvesapi\1.06\curvesapi-1.06.jar;D:\java35\apache-maven-3.6.1\repo\org\apache\poi\poi-ooxml-schemas\4.1.1\poi-ooxml-schemas-4.1.1.jar;D:\java35\apache-maven-3.6.1\repo\org\apache\xmlbeans\xmlbeans\3.1.0\xmlbeans-3.1.0.jar;D:\java35\apache-maven-3.6.1\repo\com\google\guava\guava\16.0.1\guava-16.0.1.jar;D:\java35\apache-maven-3.6.1\repo\org\apache\commons\commons-lang3\3.2.1\commons-lang3-3.2.1.jar;D:\java35\apache-maven-3.6.1\repo\ognl\ognl\3.2.6\ognl-3.2.6.jar;D:\java35\apache-maven-3.6.1\repo\org\javassist\javassist\3.20.0-GA\javassist-3.20.0-GA.jar;D:\java35\apache-maven-3.6.1\repo\javax\validation\validation-api\1.1.0.Final\validation-api-1.1.0.Final.jar;D:\java35\apache-maven-3.6.1\repo\cn\afterturn\easypoi-annotation\4.4.0\easypoi-annotation-4.4.0.jar;D:\java35\apache-maven-3.6.1\repo\org\slf4j\slf4j-simple\2.0.0-alpha7\slf4j-simple-2.0.0-alpha7.jar;D:\java35\apache-maven-3.6.1\repo\org\slf4j\slf4j-api\2.0.0-alpha7\slf4j-api-2.0.0-alpha7.jar;D:\java35\apache-maven-3.6.1\repo\io\qameta\allure\allure-testng\2.18.1\allure-testng-2.18.1.jar;D:\java35\apache-maven-3.6.1\repo\io\qameta\allure\allure-java-commons\2.18.1\allure-java-commons-2.18.1.jar;D:\java35\apache-maven-3.6.1\repo\io\qameta\allure\allure-model\2.18.1\allure-model-2.18.1.jar;D:\java35\apache-maven-3.6.1\repo\io\qameta\allure\allure-test-filter\2.18.1\allure-test-filter-2.18.1.jar;D:\java35\apache-maven-3.6.1\repo\mysql\mysql-connector-java\5.1.38\mysql-connector-java-5.1.38.jar;D:\java35\apache-maven-3.6.1\repo\commons-dbutils\commons-dbutils\1.6\commons-dbutils-1.6.jar;D:\java35\apache-maven-3.6.1\repo\com\github\javafaker\javafaker\1.0.2\javafaker-1.0.2.jar;D:\java35\apache-maven-3.6.1\repo\org\yaml\snakeyaml\1.23\snakeyaml-1.23-android.jar;D:\java35\apache-maven-3.6.1\repo\com\github\mifmif\generex\1.0.2\generex-1.0.2.jar;D:\java35\apache-maven-3.6.1\repo\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar;"/>
+    <property name="java.class.path" value="D:\code\java35\lemon_test\target\test-classes;D:\code\java35\lemon_test\target\classes;D:\java35\apache-maven-3.6.1\repo\io\rest-assured\rest-assured\4.2.0\rest-assured-4.2.0.jar;D:\java35\apache-maven-3.6.1\repo\org\codehaus\groovy\groovy\2.5.8\groovy-2.5.8.jar;D:\java35\apache-maven-3.6.1\repo\org\codehaus\groovy\groovy-xml\2.5.8\groovy-xml-2.5.8.jar;D:\java35\apache-maven-3.6.1\repo\org\apache\httpcomponents\httpclient\4.5.3\httpclient-4.5.3.jar;D:\java35\apache-maven-3.6.1\repo\org\apache\httpcomponents\httpcore\4.4.6\httpcore-4.4.6.jar;D:\java35\apache-maven-3.6.1\repo\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;D:\java35\apache-maven-3.6.1\repo\commons-codec\commons-codec\1.9\commons-codec-1.9.jar;D:\java35\apache-maven-3.6.1\repo\org\apache\httpcomponents\httpmime\4.5.3\httpmime-4.5.3.jar;D:\java35\apache-maven-3.6.1\repo\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;D:\java35\apache-maven-3.6.1\repo\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;D:\java35\apache-maven-3.6.1\repo\io\rest-assured\json-path\4.2.0\json-path-4.2.0.jar;D:\java35\apache-maven-3.6.1\repo\org\codehaus\groovy\groovy-json\2.5.8\groovy-json-2.5.8.jar;D:\java35\apache-maven-3.6.1\repo\io\rest-assured\rest-assured-common\4.2.0\rest-assured-common-4.2.0.jar;D:\java35\apache-maven-3.6.1\repo\io\rest-assured\xml-path\4.2.0\xml-path-4.2.0.jar;D:\java35\apache-maven-3.6.1\repo\jakarta\xml\bind\jakarta.xml.bind-api\2.3.2\jakarta.xml.bind-api-2.3.2.jar;D:\java35\apache-maven-3.6.1\repo\jakarta\activation\jakarta.activation-api\1.2.1\jakarta.activation-api-1.2.1.jar;D:\java35\apache-maven-3.6.1\repo\com\sun\xml\bind\jaxb-osgi\2.3.0.1\jaxb-osgi-2.3.0.1.jar;D:\java35\apache-maven-3.6.1\repo\org\apache\sling\org.apache.sling.javax.activation\0.1.0\org.apache.sling.javax.activation-0.1.0.jar;D:\java35\apache-maven-3.6.1\repo\javax\activation\activation\1.1.1\activation-1.1.1.jar;D:\java35\apache-maven-3.6.1\repo\org\testng\testng\7.0.0\testng-7.0.0.jar;D:\java35\apache-maven-3.6.1\repo\com\beust\jcommander\1.72\jcommander-1.72.jar;D:\java35\apache-maven-3.6.1\repo\com\alibaba\fastjson\2.0.7\fastjson-2.0.7.jar;D:\java35\apache-maven-3.6.1\repo\com\alibaba\fastjson2\fastjson2-extension\2.0.7\fastjson2-extension-2.0.7.jar;D:\java35\apache-maven-3.6.1\repo\com\alibaba\fastjson2\fastjson2\2.0.7\fastjson2-2.0.7.jar;D:\java35\apache-maven-3.6.1\repo\cn\afterturn\easypoi-base\4.4.0\easypoi-base-4.4.0.jar;D:\java35\apache-maven-3.6.1\repo\org\apache\poi\poi\4.1.1\poi-4.1.1.jar;D:\java35\apache-maven-3.6.1\repo\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;D:\java35\apache-maven-3.6.1\repo\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;D:\java35\apache-maven-3.6.1\repo\org\apache\poi\poi-ooxml\4.1.1\poi-ooxml-4.1.1.jar;D:\java35\apache-maven-3.6.1\repo\org\apache\commons\commons-compress\1.19\commons-compress-1.19.jar;D:\java35\apache-maven-3.6.1\repo\com\github\virtuald\curvesapi\1.06\curvesapi-1.06.jar;D:\java35\apache-maven-3.6.1\repo\org\apache\poi\poi-ooxml-schemas\4.1.1\poi-ooxml-schemas-4.1.1.jar;D:\java35\apache-maven-3.6.1\repo\org\apache\xmlbeans\xmlbeans\3.1.0\xmlbeans-3.1.0.jar;D:\java35\apache-maven-3.6.1\repo\com\google\guava\guava\16.0.1\guava-16.0.1.jar;D:\java35\apache-maven-3.6.1\repo\org\apache\commons\commons-lang3\3.2.1\commons-lang3-3.2.1.jar;D:\java35\apache-maven-3.6.1\repo\ognl\ognl\3.2.6\ognl-3.2.6.jar;D:\java35\apache-maven-3.6.1\repo\org\javassist\javassist\3.20.0-GA\javassist-3.20.0-GA.jar;D:\java35\apache-maven-3.6.1\repo\javax\validation\validation-api\1.1.0.Final\validation-api-1.1.0.Final.jar;D:\java35\apache-maven-3.6.1\repo\cn\afterturn\easypoi-annotation\4.4.0\easypoi-annotation-4.4.0.jar;D:\java35\apache-maven-3.6.1\repo\org\slf4j\slf4j-simple\2.0.0-alpha7\slf4j-simple-2.0.0-alpha7.jar;D:\java35\apache-maven-3.6.1\repo\org\slf4j\slf4j-api\2.0.0-alpha7\slf4j-api-2.0.0-alpha7.jar;D:\java35\apache-maven-3.6.1\repo\io\qameta\allure\allure-testng\2.18.1\allure-testng-2.18.1.jar;D:\java35\apache-maven-3.6.1\repo\io\qameta\allure\allure-java-commons\2.18.1\allure-java-commons-2.18.1.jar;D:\java35\apache-maven-3.6.1\repo\io\qameta\allure\allure-model\2.18.1\allure-model-2.18.1.jar;D:\java35\apache-maven-3.6.1\repo\io\qameta\allure\allure-test-filter\2.18.1\allure-test-filter-2.18.1.jar;D:\java35\apache-maven-3.6.1\repo\mysql\mysql-connector-java\5.1.38\mysql-connector-java-5.1.38.jar;D:\java35\apache-maven-3.6.1\repo\commons-dbutils\commons-dbutils\1.6\commons-dbutils-1.6.jar;D:\java35\apache-maven-3.6.1\repo\com\github\javafaker\javafaker\1.0.2\javafaker-1.0.2.jar;D:\java35\apache-maven-3.6.1\repo\org\yaml\snakeyaml\1.23\snakeyaml-1.23-android.jar;D:\java35\apache-maven-3.6.1\repo\com\github\mifmif\generex\1.0.2\generex-1.0.2.jar;D:\java35\apache-maven-3.6.1\repo\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar;"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="user.variant" value=""/>
@@ -18,21 +18,21 @@
     <property name="user.country" value="CN"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_161\jre\bin"/>
-    <property name="sun.java.command" value="C:\Users\sun_h\AppData\Local\Temp\surefire5309807123643718438\surefirebooter5384799508754378995.jar C:\Users\sun_h\AppData\Local\Temp\surefire5309807123643718438 2022-07-23T18-04-01_722-jvmRun1 surefire4883506462744100312tmp surefire_04426736218497879337tmp"/>
-    <property name="surefire.test.class.path" value="D:\code\java35\target\test-classes;D:\code\java35\target\classes;D:\java35\apache-maven-3.6.1\repo\io\rest-assured\rest-assured\4.2.0\rest-assured-4.2.0.jar;D:\java35\apache-maven-3.6.1\repo\org\codehaus\groovy\groovy\2.5.8\groovy-2.5.8.jar;D:\java35\apache-maven-3.6.1\repo\org\codehaus\groovy\groovy-xml\2.5.8\groovy-xml-2.5.8.jar;D:\java35\apache-maven-3.6.1\repo\org\apache\httpcomponents\httpclient\4.5.3\httpclient-4.5.3.jar;D:\java35\apache-maven-3.6.1\repo\org\apache\httpcomponents\httpcore\4.4.6\httpcore-4.4.6.jar;D:\java35\apache-maven-3.6.1\repo\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;D:\java35\apache-maven-3.6.1\repo\commons-codec\commons-codec\1.9\commons-codec-1.9.jar;D:\java35\apache-maven-3.6.1\repo\org\apache\httpcomponents\httpmime\4.5.3\httpmime-4.5.3.jar;D:\java35\apache-maven-3.6.1\repo\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;D:\java35\apache-maven-3.6.1\repo\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;D:\java35\apache-maven-3.6.1\repo\io\rest-assured\json-path\4.2.0\json-path-4.2.0.jar;D:\java35\apache-maven-3.6.1\repo\org\codehaus\groovy\groovy-json\2.5.8\groovy-json-2.5.8.jar;D:\java35\apache-maven-3.6.1\repo\io\rest-assured\rest-assured-common\4.2.0\rest-assured-common-4.2.0.jar;D:\java35\apache-maven-3.6.1\repo\io\rest-assured\xml-path\4.2.0\xml-path-4.2.0.jar;D:\java35\apache-maven-3.6.1\repo\jakarta\xml\bind\jakarta.xml.bind-api\2.3.2\jakarta.xml.bind-api-2.3.2.jar;D:\java35\apache-maven-3.6.1\repo\jakarta\activation\jakarta.activation-api\1.2.1\jakarta.activation-api-1.2.1.jar;D:\java35\apache-maven-3.6.1\repo\com\sun\xml\bind\jaxb-osgi\2.3.0.1\jaxb-osgi-2.3.0.1.jar;D:\java35\apache-maven-3.6.1\repo\org\apache\sling\org.apache.sling.javax.activation\0.1.0\org.apache.sling.javax.activation-0.1.0.jar;D:\java35\apache-maven-3.6.1\repo\javax\activation\activation\1.1.1\activation-1.1.1.jar;D:\java35\apache-maven-3.6.1\repo\org\testng\testng\7.0.0\testng-7.0.0.jar;D:\java35\apache-maven-3.6.1\repo\com\beust\jcommander\1.72\jcommander-1.72.jar;D:\java35\apache-maven-3.6.1\repo\com\alibaba\fastjson\2.0.7\fastjson-2.0.7.jar;D:\java35\apache-maven-3.6.1\repo\com\alibaba\fastjson2\fastjson2-extension\2.0.7\fastjson2-extension-2.0.7.jar;D:\java35\apache-maven-3.6.1\repo\com\alibaba\fastjson2\fastjson2\2.0.7\fastjson2-2.0.7.jar;D:\java35\apache-maven-3.6.1\repo\cn\afterturn\easypoi-base\4.4.0\easypoi-base-4.4.0.jar;D:\java35\apache-maven-3.6.1\repo\org\apache\poi\poi\4.1.1\poi-4.1.1.jar;D:\java35\apache-maven-3.6.1\repo\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;D:\java35\apache-maven-3.6.1\repo\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;D:\java35\apache-maven-3.6.1\repo\org\apache\poi\poi-ooxml\4.1.1\poi-ooxml-4.1.1.jar;D:\java35\apache-maven-3.6.1\repo\org\apache\commons\commons-compress\1.19\commons-compress-1.19.jar;D:\java35\apache-maven-3.6.1\repo\com\github\virtuald\curvesapi\1.06\curvesapi-1.06.jar;D:\java35\apache-maven-3.6.1\repo\org\apache\poi\poi-ooxml-schemas\4.1.1\poi-ooxml-schemas-4.1.1.jar;D:\java35\apache-maven-3.6.1\repo\org\apache\xmlbeans\xmlbeans\3.1.0\xmlbeans-3.1.0.jar;D:\java35\apache-maven-3.6.1\repo\com\google\guava\guava\16.0.1\guava-16.0.1.jar;D:\java35\apache-maven-3.6.1\repo\org\apache\commons\commons-lang3\3.2.1\commons-lang3-3.2.1.jar;D:\java35\apache-maven-3.6.1\repo\ognl\ognl\3.2.6\ognl-3.2.6.jar;D:\java35\apache-maven-3.6.1\repo\org\javassist\javassist\3.20.0-GA\javassist-3.20.0-GA.jar;D:\java35\apache-maven-3.6.1\repo\javax\validation\validation-api\1.1.0.Final\validation-api-1.1.0.Final.jar;D:\java35\apache-maven-3.6.1\repo\cn\afterturn\easypoi-annotation\4.4.0\easypoi-annotation-4.4.0.jar;D:\java35\apache-maven-3.6.1\repo\org\slf4j\slf4j-simple\2.0.0-alpha7\slf4j-simple-2.0.0-alpha7.jar;D:\java35\apache-maven-3.6.1\repo\org\slf4j\slf4j-api\2.0.0-alpha7\slf4j-api-2.0.0-alpha7.jar;D:\java35\apache-maven-3.6.1\repo\io\qameta\allure\allure-testng\2.18.1\allure-testng-2.18.1.jar;D:\java35\apache-maven-3.6.1\repo\io\qameta\allure\allure-java-commons\2.18.1\allure-java-commons-2.18.1.jar;D:\java35\apache-maven-3.6.1\repo\io\qameta\allure\allure-model\2.18.1\allure-model-2.18.1.jar;D:\java35\apache-maven-3.6.1\repo\io\qameta\allure\allure-test-filter\2.18.1\allure-test-filter-2.18.1.jar;D:\java35\apache-maven-3.6.1\repo\mysql\mysql-connector-java\5.1.38\mysql-connector-java-5.1.38.jar;D:\java35\apache-maven-3.6.1\repo\commons-dbutils\commons-dbutils\1.6\commons-dbutils-1.6.jar;D:\java35\apache-maven-3.6.1\repo\com\github\javafaker\javafaker\1.0.2\javafaker-1.0.2.jar;D:\java35\apache-maven-3.6.1\repo\org\yaml\snakeyaml\1.23\snakeyaml-1.23-android.jar;D:\java35\apache-maven-3.6.1\repo\com\github\mifmif\generex\1.0.2\generex-1.0.2.jar;D:\java35\apache-maven-3.6.1\repo\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar;"/>
+    <property name="sun.java.command" value="C:\Users\sun_h\AppData\Local\Temp\surefire69231034641879876\surefirebooter7061180345294779386.jar C:\Users\sun_h\AppData\Local\Temp\surefire69231034641879876 2022-07-31T19-36-19_501-jvmRun1 surefire7407144253922971559tmp surefire_04217868936102388515tmp"/>
+    <property name="surefire.test.class.path" value="D:\code\java35\lemon_test\target\test-classes;D:\code\java35\lemon_test\target\classes;D:\java35\apache-maven-3.6.1\repo\io\rest-assured\rest-assured\4.2.0\rest-assured-4.2.0.jar;D:\java35\apache-maven-3.6.1\repo\org\codehaus\groovy\groovy\2.5.8\groovy-2.5.8.jar;D:\java35\apache-maven-3.6.1\repo\org\codehaus\groovy\groovy-xml\2.5.8\groovy-xml-2.5.8.jar;D:\java35\apache-maven-3.6.1\repo\org\apache\httpcomponents\httpclient\4.5.3\httpclient-4.5.3.jar;D:\java35\apache-maven-3.6.1\repo\org\apache\httpcomponents\httpcore\4.4.6\httpcore-4.4.6.jar;D:\java35\apache-maven-3.6.1\repo\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;D:\java35\apache-maven-3.6.1\repo\commons-codec\commons-codec\1.9\commons-codec-1.9.jar;D:\java35\apache-maven-3.6.1\repo\org\apache\httpcomponents\httpmime\4.5.3\httpmime-4.5.3.jar;D:\java35\apache-maven-3.6.1\repo\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;D:\java35\apache-maven-3.6.1\repo\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;D:\java35\apache-maven-3.6.1\repo\io\rest-assured\json-path\4.2.0\json-path-4.2.0.jar;D:\java35\apache-maven-3.6.1\repo\org\codehaus\groovy\groovy-json\2.5.8\groovy-json-2.5.8.jar;D:\java35\apache-maven-3.6.1\repo\io\rest-assured\rest-assured-common\4.2.0\rest-assured-common-4.2.0.jar;D:\java35\apache-maven-3.6.1\repo\io\rest-assured\xml-path\4.2.0\xml-path-4.2.0.jar;D:\java35\apache-maven-3.6.1\repo\jakarta\xml\bind\jakarta.xml.bind-api\2.3.2\jakarta.xml.bind-api-2.3.2.jar;D:\java35\apache-maven-3.6.1\repo\jakarta\activation\jakarta.activation-api\1.2.1\jakarta.activation-api-1.2.1.jar;D:\java35\apache-maven-3.6.1\repo\com\sun\xml\bind\jaxb-osgi\2.3.0.1\jaxb-osgi-2.3.0.1.jar;D:\java35\apache-maven-3.6.1\repo\org\apache\sling\org.apache.sling.javax.activation\0.1.0\org.apache.sling.javax.activation-0.1.0.jar;D:\java35\apache-maven-3.6.1\repo\javax\activation\activation\1.1.1\activation-1.1.1.jar;D:\java35\apache-maven-3.6.1\repo\org\testng\testng\7.0.0\testng-7.0.0.jar;D:\java35\apache-maven-3.6.1\repo\com\beust\jcommander\1.72\jcommander-1.72.jar;D:\java35\apache-maven-3.6.1\repo\com\alibaba\fastjson\2.0.7\fastjson-2.0.7.jar;D:\java35\apache-maven-3.6.1\repo\com\alibaba\fastjson2\fastjson2-extension\2.0.7\fastjson2-extension-2.0.7.jar;D:\java35\apache-maven-3.6.1\repo\com\alibaba\fastjson2\fastjson2\2.0.7\fastjson2-2.0.7.jar;D:\java35\apache-maven-3.6.1\repo\cn\afterturn\easypoi-base\4.4.0\easypoi-base-4.4.0.jar;D:\java35\apache-maven-3.6.1\repo\org\apache\poi\poi\4.1.1\poi-4.1.1.jar;D:\java35\apache-maven-3.6.1\repo\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;D:\java35\apache-maven-3.6.1\repo\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;D:\java35\apache-maven-3.6.1\repo\org\apache\poi\poi-ooxml\4.1.1\poi-ooxml-4.1.1.jar;D:\java35\apache-maven-3.6.1\repo\org\apache\commons\commons-compress\1.19\commons-compress-1.19.jar;D:\java35\apache-maven-3.6.1\repo\com\github\virtuald\curvesapi\1.06\curvesapi-1.06.jar;D:\java35\apache-maven-3.6.1\repo\org\apache\poi\poi-ooxml-schemas\4.1.1\poi-ooxml-schemas-4.1.1.jar;D:\java35\apache-maven-3.6.1\repo\org\apache\xmlbeans\xmlbeans\3.1.0\xmlbeans-3.1.0.jar;D:\java35\apache-maven-3.6.1\repo\com\google\guava\guava\16.0.1\guava-16.0.1.jar;D:\java35\apache-maven-3.6.1\repo\org\apache\commons\commons-lang3\3.2.1\commons-lang3-3.2.1.jar;D:\java35\apache-maven-3.6.1\repo\ognl\ognl\3.2.6\ognl-3.2.6.jar;D:\java35\apache-maven-3.6.1\repo\org\javassist\javassist\3.20.0-GA\javassist-3.20.0-GA.jar;D:\java35\apache-maven-3.6.1\repo\javax\validation\validation-api\1.1.0.Final\validation-api-1.1.0.Final.jar;D:\java35\apache-maven-3.6.1\repo\cn\afterturn\easypoi-annotation\4.4.0\easypoi-annotation-4.4.0.jar;D:\java35\apache-maven-3.6.1\repo\org\slf4j\slf4j-simple\2.0.0-alpha7\slf4j-simple-2.0.0-alpha7.jar;D:\java35\apache-maven-3.6.1\repo\org\slf4j\slf4j-api\2.0.0-alpha7\slf4j-api-2.0.0-alpha7.jar;D:\java35\apache-maven-3.6.1\repo\io\qameta\allure\allure-testng\2.18.1\allure-testng-2.18.1.jar;D:\java35\apache-maven-3.6.1\repo\io\qameta\allure\allure-java-commons\2.18.1\allure-java-commons-2.18.1.jar;D:\java35\apache-maven-3.6.1\repo\io\qameta\allure\allure-model\2.18.1\allure-model-2.18.1.jar;D:\java35\apache-maven-3.6.1\repo\io\qameta\allure\allure-test-filter\2.18.1\allure-test-filter-2.18.1.jar;D:\java35\apache-maven-3.6.1\repo\mysql\mysql-connector-java\5.1.38\mysql-connector-java-5.1.38.jar;D:\java35\apache-maven-3.6.1\repo\commons-dbutils\commons-dbutils\1.6\commons-dbutils-1.6.jar;D:\java35\apache-maven-3.6.1\repo\com\github\javafaker\javafaker\1.0.2\javafaker-1.0.2.jar;D:\java35\apache-maven-3.6.1\repo\org\yaml\snakeyaml\1.23\snakeyaml-1.23-android.jar;D:\java35\apache-maven-3.6.1\repo\com\github\mifmif\generex\1.0.2\generex-1.0.2.jar;D:\java35\apache-maven-3.6.1\repo\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
-    <property name="allure.results.directory" value="D:\code\java35\target/allure-results"/>
+    <property name="allure.results.directory" value="D:\code\java35\lemon_test\target/allure-results"/>
     <property name="user.home" value="C:\Users\sun_h"/>
     <property name="user.language" value="zh"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_161\jre"/>
-    <property name="basedir" value="D:\code\java35"/>
+    <property name="basedir" value="D:\code\java35\lemon_test"/>
     <property name="file.separator" value="\"/>
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\sun_h\AppData\Local\Temp\surefire5309807123643718438\surefirebooter5384799508754378995.jar;D:\java35\apache-maven-3.6.1\repo/org/aspectj/aspectjweaver/1.8.10/aspectjweaver-1.8.10.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\sun_h\AppData\Local\Temp\surefire69231034641879876\surefirebooter7061180345294779386.jar;D:\java35\apache-maven-3.6.1\repo/org/aspectj/aspectjweaver/1.8.10/aspectjweaver-1.8.10.jar"/>
     <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_161\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_161\jre\classes"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
@@ -48,12 +48,12 @@
     <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
     <property name="java.io.tmpdir" value="C:\Users\sun_h\AppData\Local\Temp\"/>
     <property name="java.version" value="1.8.0_161"/>
-    <property name="user.dir" value="D:\code\java35"/>
+    <property name="user.dir" value="D:\code\java35\lemon_test"/>
     <property name="os.arch" value="amd64"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
     <property name="sun.os.patch.level" value=""/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_161\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:\java35\apache-maven-3.6.1\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Java\jdk1.8.0_161\bin;C:\Users\sun_h\AppData\Local\Programs\Python\Python37\Scripts\;C:\Users\sun_h\AppData\Local\Programs\Python\Python37\;C:\ProgramData\Oracle\Java\javapath;D:\Python\Scripts\;D:\Python\;D:\Scripts\;D:\;D:\adt-bundle-windows-x86_64-20140702\sdk\tools;D:\adt-bundle-windows-x86_64-20140702\sdk\platform-tools;C:\Program Files\Python37\Scripts\;C:\Program Files\Python37\;C:\Program Files (x86)\Common Files\NetSarang;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk1.8.0_161\jre\bin;C:\Program Files\Java\jre1.8.0_161\bin;C:\Program Files\TortoiseSVN\bin;C:\Program Files\Git\cmd;C:\Program Files\TortoiseGit\bin;D:\java35\apache-maven-3.6.1\bin;C:\Users\sun_h\AppData\Local\Microsoft\WindowsApps;;C:\Users\sun_h\AppData\Local\Programs\Fiddler;D:\Fiddler;C:\Users\sun_h\AppData\Local\Microsoft\WindowsApps;D:\Microsoft VS Code\bin;."/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_161\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:\java35\apache-maven-3.6.1\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Java\jdk1.8.0_161\bin;C:\Users\sun_h\AppData\Local\Programs\Python\Python37\Scripts\;C:\Users\sun_h\AppData\Local\Programs\Python\Python37\;C:\ProgramData\Oracle\Java\javapath;D:\Python\Scripts\;D:\Python\;D:\Scripts\;D:\;D:\adt-bundle-windows-x86_64-20140702\sdk\tools;D:\adt-bundle-windows-x86_64-20140702\sdk\platform-tools;C:\Program Files\Python37\Scripts\;C:\Program Files\Python37\;C:\Program Files (x86)\Common Files\NetSarang;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk1.8.0_161\jre\bin;C:\Program Files\Java\jre1.8.0_321\bin;C:\Program Files\TortoiseSVN\bin;C:\Program Files\Git\cmd;C:\Program Files\TortoiseGit\bin;D:\java35\apache-maven-3.6.1\bin;C:\Users\sun_h\AppData\Local\Microsoft\WindowsApps;;C:\Users\sun_h\AppData\Local\Programs\Fiddler;D:\Fiddler;C:\Users\sun_h\AppData\Local\Microsoft\WindowsApps;D:\Microsoft VS Code\bin;."/>
     <property name="java.vm.info" value="mixed mode"/>
     <property name="java.vendor" value="Oracle Corporation"/>
     <property name="java.vm.version" value="25.161-b12"/>
@@ -61,14 +61,336 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="52.0"/>
   </properties>
-  <testcase name="shopCart" classname="com.study.ShopCart" time="6.967">
-    <failure message="expected [200] but found [400]" type="java.lang.AssertionError">java.lang.AssertionError: expected [200] but found [400]
-	at com.study.ShopCart.shopCart(ShopCart.java:28)
+  <testcase name="resAssert" classname="com.study.ShopCart" time="5.301">
+    <failure message="expected [200] but found [404]" type="java.lang.AssertionError">java.lang.AssertionError: expected [200] but found [404]
+	at com.study.ShopCart.resAssert(ShopCart.java:59)
 </failure>
-    <system-out><![CDATA[========================登录接口================================
-===============================搜索接口===========================
-===================================详细信息接口======================
+    <system-out><![CDATA[Request method:	POST
+Request URI:	http://mall.lemonban.com:8107/login
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "principal": "Donald",
+    "credentials": "123456",
+    "appType": 3,
+    "loginType": 0
+}
+HTTP/1.1 200 
+Vary: Origin
+Vary: Access-Control-Request-Method
+Vary: Access-Control-Request-Headers
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+X-Frame-Options: DENY
+Set-Cookie: JSESSIONID=DBA1CB3DBD5ECC22B1C1A23CD09629A3; Path=/; HttpOnly
+Content-Type: application/json;charset=UTF-8
+Content-Length: 243
+Date: Sun, 31 Jul 2022 11:36:28 GMT
+Keep-Alive: timeout=60
+Connection: keep-alive
+
+{
+    "access_token": "93b0f437-c018-41c4-9ee8-7808719ae6b1",
+    "token_type": "bearer",
+    "refresh_token": "689292f6-3ab6-4d65-993a-b9b5977e2e53",
+    "expires_in": 1295999,
+    "pic": null,
+    "userId": "5c92a7c1044c4d7cafc47ef25fe1773a",
+    "nickName": "Donald",
+    "enabled": true
+}
+Request method:	POST
+Request URI:	http://api.lemonban.com/p/shopCart/changeItem
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=bearer93b0f437-c018-41c4-9ee8-7808719ae6b1
+				Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "basketId": 0,
+    "count": 1,
+    "prodId": "426",
+    "shopId": 1,
+    "skuId": 7552
+}
+HTTP/1.1 404 
+Server: nginx/1.4.2
+Date: Sun, 31 Jul 2022 11:36:29 GMT
+Content-Type: text/html;charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Content-Language: en
+Content-Encoding: gzip
+
+<html lang="en">
+  <head>
+    <title>HTTP Status 404 – Not Found</title>
+    <style type="text/css">h1 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:22px;} h2 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:16px;} h3 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:14px;} body {font-family:Tahoma,Arial,sans-serif;color:black;background-color:white;} b {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;} p {font-family:Tahoma,Arial,sans-serif;background:white;color:black;font-size:12px;} a {color:black;} a.name {color:black;} .line {height:1px;background-color:#525D76;border:none;}</style>
+  </head>
+  <body>
+    <h1>HTTP Status 404 – Not Found</h1>
+    <hr class="line"/>
+    <p>
+      <b>Type</b>
+ Status Report    </p>
+    <p>
+      <b>Message</b>
+ /p/shopCart/changeItem    </p>
+    <p>
+      <b>Description</b>
+ The origin server did not find a current representation for the target resource or is not willing to disclose that one exists.    </p>
+    <hr class="line"/>
+    <h3>Apache Tomcat/9.0.24</h3>
+  </body>
+</html>
 ]]></system-out>
   </testcase>
-  <testcase name="register" classname="com.study.RegisterTest" time="3.482"/>
+  <testcase name="shopCart" classname="com.study.ShopCart" time="0.523">
+    <failure message="Failed to parse the JSON document" type="io.restassured.path.json.exception.JsonPathException"><![CDATA[io.restassured.path.json.exception.JsonPathException: Failed to parse the JSON document
+	at com.study.ShopCart.shopCart(ShopCart.java:33)
+Caused by: groovy.json.JsonException: Lexing failed on line: 1, column: 1, while reading '<', no possible valid JSON value or punctuation could be recognized.
+	at com.study.ShopCart.shopCart(ShopCart.java:33)
+]]></failure>
+    <system-out><![CDATA[Request method:	POST
+Request URI:	http://mall.lemonban.com:8107/login
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "principal": "Donald",
+    "credentials": "123456",
+    "appType": 3,
+    "loginType": 0
+}
+HTTP/1.1 200 
+Vary: Origin
+Vary: Access-Control-Request-Method
+Vary: Access-Control-Request-Headers
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+X-Frame-Options: DENY
+Set-Cookie: JSESSIONID=6CB47EC02C8931B629B859F4C05898B3; Path=/; HttpOnly
+Content-Type: application/json;charset=UTF-8
+Content-Length: 243
+Date: Sun, 31 Jul 2022 11:36:30 GMT
+Keep-Alive: timeout=60
+Connection: keep-alive
+
+{
+    "access_token": "7b194379-56e6-4618-b1b1-37bc15bec68d",
+    "token_type": "bearer",
+    "refresh_token": "b8df5aed-64be-458d-952a-f1d58c8e675c",
+    "expires_in": 1295999,
+    "pic": null,
+    "userId": "5c92a7c1044c4d7cafc47ef25fe1773a",
+    "nickName": "Donald",
+    "enabled": true
+}
+========================登录接口================================
+Request method:	GET
+Request URI:	http://api.lemonban.com/search/searchProdPage?prodName=&categoryId=&sort=0&orderBy=0&current=1&isAllProdType=true&st=0&size=12
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 404 
+Server: nginx/1.4.2
+Date: Sun, 31 Jul 2022 11:36:30 GMT
+Content-Type: text/html;charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Content-Language: en
+Content-Encoding: gzip
+
+<html lang="en">
+  <head>
+    <title>HTTP Status 404 – Not Found</title>
+    <style type="text/css">h1 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:22px;} h2 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:16px;} h3 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:14px;} body {font-family:Tahoma,Arial,sans-serif;color:black;background-color:white;} b {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;} p {font-family:Tahoma,Arial,sans-serif;background:white;color:black;font-size:12px;} a {color:black;} a.name {color:black;} .line {height:1px;background-color:#525D76;border:none;}</style>
+  </head>
+  <body>
+    <h1>HTTP Status 404 – Not Found</h1>
+    <hr class="line"/>
+    <p>
+      <b>Type</b>
+ Status Report    </p>
+    <p>
+      <b>Message</b>
+ /search/searchProdPage    </p>
+    <p>
+      <b>Description</b>
+ The origin server did not find a current representation for the target resource or is not willing to disclose that one exists.    </p>
+    <hr class="line"/>
+    <h3>Apache Tomcat/9.0.24</h3>
+  </body>
+</html>
+]]></system-out>
+  </testcase>
+  <testcase name="register" classname="com.study.RegisterTest" time="4.189">
+    <failure message="expected [200] but found [405]" type="java.lang.AssertionError">java.lang.AssertionError: expected [200] but found [405]
+	at com.study.RegisterTest.register(RegisterTest.java:50)
+</failure>
+    <system-out><![CDATA[17613528321
+Request method:	PUT
+Request URI:	http://api.lemonban.com/user/sendRegisterSms
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "mobile": "17613528321"
+}
+HTTP/1.1 405 
+Server: nginx/1.4.2
+Date: Sun, 31 Jul 2022 11:36:32 GMT
+Content-Type: text/html;charset=utf-8
+Content-Length: 1050
+Connection: keep-alive
+Allow: OPTIONS, GET, HEAD, POST
+Content-Language: en
+
+<html lang="en">
+  <head>
+    <title>HTTP Status 405 – Method Not Allowed</title>
+    <style type="text/css">h1 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:22px;} h2 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:16px;} h3 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:14px;} body {font-family:Tahoma,Arial,sans-serif;color:black;background-color:white;} b {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;} p {font-family:Tahoma,Arial,sans-serif;background:white;color:black;font-size:12px;} a {color:black;} a.name {color:black;} .line {height:1px;background-color:#525D76;border:none;}</style>
+  </head>
+  <body>
+    <h1>HTTP Status 405 – Method Not Allowed</h1>
+    <hr class="line"/>
+    <p>
+      <b>Type</b>
+ Status Report    </p>
+    <p>
+      <b>Description</b>
+ The method received in the request-line is known by the origin server but not supported by the target resource.    </p>
+    <hr class="line"/>
+    <h3>Apache Tomcat/9.0.24</h3>
+  </body>
+</html>
+=================================发送验证码===================
+Request method:	PUT
+Request URI:	http://api.lemonban.com/user/checkRegisterSms
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "mobile": "17613528321",
+    "validCode": "403227"
+}
+HTTP/1.1 405 
+Server: nginx/1.4.2
+Date: Sun, 31 Jul 2022 11:36:33 GMT
+Content-Type: text/html;charset=utf-8
+Content-Length: 1050
+Connection: keep-alive
+Allow: OPTIONS, GET, HEAD, POST
+Content-Language: en
+
+<html lang="en">
+  <head>
+    <title>HTTP Status 405 – Method Not Allowed</title>
+    <style type="text/css">h1 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:22px;} h2 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:16px;} h3 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:14px;} body {font-family:Tahoma,Arial,sans-serif;color:black;background-color:white;} b {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;} p {font-family:Tahoma,Arial,sans-serif;background:white;color:black;font-size:12px;} a {color:black;} a.name {color:black;} .line {height:1px;background-color:#525D76;border:none;}</style>
+  </head>
+  <body>
+    <h1>HTTP Status 405 – Method Not Allowed</h1>
+    <hr class="line"/>
+    <p>
+      <b>Type</b>
+ Status Report    </p>
+    <p>
+      <b>Description</b>
+ The method received in the request-line is known by the origin server but not supported by the target resource.    </p>
+    <hr class="line"/>
+    <h3>Apache Tomcat/9.0.24</h3>
+  </body>
+</html>
+================================校验验证码========================
+Price
+Request method:	PUT
+Request URI:	http://api.lemonban.com/user/registerOrBindUser
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{"appType":3,"checkRegisterSmsFlag":"<!doctype html><html lang="en"><head><title>HTTP Status 405 – Method Not Allowed</title><style type="text/css">h1 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:22px;} h2 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:16px;} h3 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:14px;} body {font-family:Tahoma,Arial,sans-serif;color:black;background-color:white;} b {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;} p {font-family:Tahoma,Arial,sans-serif;background:white;color:black;font-size:12px;} a {color:black;} a.name {color:black;} .line {height:1px;background-color:#525D76;border:none;}</style></head><body><h1>HTTP Status 405 – Method Not Allowed</h1><hr class="line" /><p><b>Type</b> Status Report</p><p><b>Description</b> The method received in the request-line is known by the origin server but not supported by the target resource.</p><hr class="line" /><h3>Apache Tomcat/9.0.24</h3></body></html>","mobile":17613528321,"userName":"An","password":"123456","registerOrBind":1,"validateType":1}
+HTTP/1.1 405 
+Server: nginx/1.4.2
+Date: Sun, 31 Jul 2022 11:36:34 GMT
+Content-Type: text/html;charset=utf-8
+Content-Length: 1050
+Connection: keep-alive
+Allow: OPTIONS, GET, HEAD, POST
+Content-Language: en
+
+<html lang="en">
+  <head>
+    <title>HTTP Status 405 – Method Not Allowed</title>
+    <style type="text/css">h1 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:22px;} h2 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:16px;} h3 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:14px;} body {font-family:Tahoma,Arial,sans-serif;color:black;background-color:white;} b {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;} p {font-family:Tahoma,Arial,sans-serif;background:white;color:black;font-size:12px;} a {color:black;} a.name {color:black;} .line {height:1px;background-color:#525D76;border:none;}</style>
+  </head>
+  <body>
+    <h1>HTTP Status 405 – Method Not Allowed</h1>
+    <hr class="line"/>
+    <p>
+      <b>Type</b>
+ Status Report    </p>
+    <p>
+      <b>Description</b>
+ The method received in the request-line is known by the origin server but not supported by the target resource.    </p>
+    <hr class="line"/>
+    <h3>Apache Tomcat/9.0.24</h3>
+  </body>
+</html>
+]]></system-out>
+  </testcase>
 </testsuite>
