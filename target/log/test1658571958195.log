@@ -1,0 +1,81 @@
+Request method:	GET
+Request URI:	http://mall.lemonban.com:8107/prod/prodInfo?prodId=359
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 
+Vary: Origin
+Vary: Access-Control-Request-Method
+Vary: Access-Control-Request-Headers
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+X-Frame-Options: DENY
+Content-Type: application/json
+Transfer-Encoding: chunked
+Date: Sat, 23 Jul 2022 10:25:58 GMT
+Keep-Alive: timeout=60
+Connection: keep-alive
+
+{
+    "shopId": 1,
+    "shopName": null,
+    "prodId": 359,
+    "prodName": "py47",
+    "price": 88.0,
+    "content": "<p><img src=\"https://img30.360buyimg.com/sku/jfs/t1/213548/10/2143/377795/6179218eE26e317e1/e4a5cf8989293d09.jpg\" /></p>",
+    "oriPrice": 100.0,
+    "waterSoldNum": 0,
+    "totalStocks": 20,
+    "brief": "py47",
+    "video": "",
+    "pic": "http://mall.lemonban.com:8108/2022/07/8da23b4726544e7db0122c7ae64eb9d6.gif",
+    "imgs": "http://mall.lemonban.com:8108/2022/07/8da23b4726544e7db0122c7ae64eb9d6.gif",
+    "categoryId": 148,
+    "prodType": 0,
+    "scorePrice": null,
+    "liveRoomParams": [
+        
+    ],
+    "skuList": [
+        {
+            "skuId": 713,
+            "price": 0.01,
+            "oriPrice": 0.01,
+            "stocks": 10,
+            "skuName": "",
+            "skuScore": 1,
+            "pic": null,
+            "properties": ""
+        },
+        {
+            "skuId": 7483,
+            "price": 88.0,
+            "oriPrice": 100.0,
+            "stocks": 20,
+            "skuName": null,
+            "skuScore": 1,
+            "pic": null,
+            "properties": null
+        }
+    ],
+    "groupActivityId": 0,
+    "activityPrice": null,
+    "startDeliveryFee": null,
+    "deliveryModeVO": {
+        "hasUserPickUp": false,
+        "hasShopDelivery": true,
+        "hasCityDelivery": false
+    },
+    "preSellStatus": 0,
+    "preSellTime": null
+}

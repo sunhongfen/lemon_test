@@ -1,0 +1,37 @@
+Request method:	POST
+Request URI:	http://mall.lemonban.com:8107/p/shopCart/changeItem
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=bearer2c3b638c-1a7e-4f26-b41d-fce6a2bea234
+				Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "basketId": 0,
+    "count": 1,
+    "prodId": 359,
+    "shopId": 1,
+    "skuId": 713
+}
+HTTP/1.1 400 
+Vary: Origin
+Vary: Access-Control-Request-Method
+Vary: Access-Control-Request-Headers
+Set-Cookie: JSESSIONID=ED8B6B4450C5E9CB201E494EC6DD71E9; Path=/; HttpOnly
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+X-Frame-Options: DENY
+Content-Type: text/plain;charset=UTF-8
+Content-Length: 18
+Date: Sat, 23 Jul 2022 10:04:11 GMT
+Connection: close
+
+Insufficient stock

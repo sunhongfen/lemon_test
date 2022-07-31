@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [All Test Suite]">
+  <test thread-count="5" verbose="0" name="D:/code/java35/target(failed)">
+    <classes>
+      <class name="com.study.ShopCart">
+        <methods>
+          <include name="shopCart"/>
+        </methods>
+      </class> <!-- com.study.ShopCart -->
+    </classes>
+  </test> <!-- D:/code/java35/target(failed) -->
+</suite> <!-- Failed suite [All Test Suite] -->
